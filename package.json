@@ -1,0 +1,24 @@
+{
+  "name": "ranpass-cli",
+  "description": "Command line tool for generate secure password.",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "preferGlobal": true,
+  "bin": {
+    "ranpass": "./src/main.js"
+  },
+  "scripts": {
+    "start": "node -r esm src/main.js"
+  },
+  "author": {
+    "name": "Rajat Sharma",
+    "email": "rajat@developar.in",
+    "url": "https://github.com/rajatxs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clipboardy": "^2.3.0",
+    "commander": "^8.0.0"
+  }
+}
